@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(72,121,134,1) 73%, rgba(57,141,160,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.quote {
+font-size: 25px;
+}
+
+header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 3%;
+    z-index: 100;
+    backdrop-filter: blur(5px);
+    color: #FAF9F6;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #FAF9F6;
+}
+
+.navlinks {
+list-style: none;
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.navlinks a {
+    transition: all 0.3s ease 0s;
+    }
+
+.navlinks li a:hover {
+color: #00A8A9;
+}
+
+.quotebutton {
+    display: inline-block;
+    background-color: #00A8A9;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.quotebutton {
+    transition: all 0.3s ease 0s;
+    }
+
+.quotebutton:hover {
+color: #000000;
+}
+
+.write {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+   color: #FAF9F6;
+   font-size: 20px;
+   padding: 50px 0 100px 0;
+}
+
+.backgroundimg {
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/office.jpg);
+    background-repeat: no repeat;
+    background-position: center;
+}
+
+.image-text-container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.imgcont {
+    width: 600px;
+    height: 400px;
+}
+
+.text-item {
+    padding: 0 80px 0 80px;
+    color: #FAF9F6
+}
+
+.aboutus {
+    color: #FAF9F6
+}
+
+.reviewhead {
+display: flex;
+justify-content: center;
+font-size: 40px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: #FAF9F6
+}
+
+.rev-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 50px 50px 50px;
+    flex: 1;
+}
+
+.review-item-one,
+.review-item-two,
+.review-item-three {
+    width: 300px;
+    height: 300px;
+    padding: 0px 15px 0 15px;
+    align-content: center;
+    color: #FAF9F6;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.picture-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.pic {
+    width: 500px;
+    height: 400px;
+}
+
+.banner-container {
+    background-color: aliceblue;
+}
