@@ -6,7 +6,8 @@ body {
     background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(72,121,134,1) 73%, rgba(57,141,160,1) 100%, rgba(0,212,255,1) 100%);
 }
-
+/*change each row to a slightly different shade*/
+/*find better header picture*/
 .quote {
 font-size: 25px;
 }
@@ -51,29 +52,31 @@ color: #00A8A9;
 
 .quotebutton {
     display: inline-block;
-    background-color: #00A8A9;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(72,121,134,1) 73%, rgba(57,141,160,1) 100%, rgba(0,212,255,1) 100%);
     border: none;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 15px 40px;
+    border-radius: 30px;
+    transition: all 0.3s ease 0s;
+    margin: 15px 0 65px 0;
+    font-size: 20px;
 }
 
-.quotebutton {
-    transition: all 0.3s ease 0s;
-    }
-
 .quotebutton:hover {
-color: #000000;
+color: #00A8A9;
 }
 
 .write {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
     flex-direction: column;
    color: #FAF9F6;
-   font-size: 20px;
+   font-size: 38px;
    padding: 50px 0 100px 0;
+   margin-left: 35px;
+}
+
+.quote {
+    line-height: 40px;
 }
 
 .backgroundimg {
@@ -182,3 +185,4 @@ color: #FAF9F6
     border-radius: 15px;
 }
 
+/*3 row boxes with headings about services*/
