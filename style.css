@@ -246,3 +246,76 @@ color: #FAF9F6;
     color: #faf9f6;
 }
 /*add icons top of each of the boxes*/
+
+.footer-container {
+    background-color: whitesmoke;
+    padding: 4rem 0 4rem 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width:80%;
+    height: 40vh;
+    background-color: whitesmoke;
+    color: #000000;
+}
+
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.dooter-heading h2 {
+    margin-bottom: 2rem;
+}
+
+.footer-heading a {
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer-heading a:hover {
+    color: #00A8A9;
+    transition: 0.3 ease-out;
+}
+
+.footer-email-form h2 {
+    margin-bottom: 2rem;
+}
+
+#footer-email {
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+#footer-email::placeholder {
+    color: #b1b1b1;
+}
+
+#footer-email-btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #f9423d;
+    outline: none;
+    border: none;
+    font: 1rem;
+}
+
+#footer-email-btn:hover {
+    cursor: pointer;
+    transition: all 0.4s ease-out;
+    background-color: #337;
+}
+
