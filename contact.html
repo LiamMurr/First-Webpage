@@ -10,7 +10,7 @@
   <body>
     <div class="backgroundimg">
       <header>
-        <h1 class="logo">EcoClean</h1>
+        <a href="index.html"><h1 class="logo">EcoClean</h1></a>
         <nav>
           <ul class="navlinks">
             <li><a href="index.html">Home</a></li>
@@ -22,31 +22,32 @@
       </header>
 
       <section class="contact-container">
-        <form id="contact-form">
+        <form id="contact-form" action="/" method="GET">
           <h2>Online Enquiry</h2>
           <div>
-            <label id="name-label" for="name"></label>
+            <label class="all-inputs" for="name" id="name"></label>
             <input type="text" id="name" name="name" placeholder="Name" required>
           </div>
-
-            <label id="email-label" for="email"></label>
+<div>
+            <label class="all-inputs" for="email" id="email"></label>
             <input type="email" id="email" name="email" placeholder="Email" required>
-      
-
-            <label id="number-label" for="phone"></label>
+          </div>
+<div>
+            <label class="all-inputs" for="phone" id="tel"></label>
             <input type="tel" id="number" name="phone" placeholder="Phone" required>
-
-
-            <label id="service-type" for="service"></label>
+          </div>
+          <div>
+            <label class="all-inputs" for="service" id="services"></label>
             <select name="service" id="service">
               <option value="Commercial">Commercial</option>
               <option value="bond cleaning">Bond cleaning</option>
               <option value="residential">Residential</option>
               <option value="Multiple">Multiple</option>
             </select>
-            <textarea rows="4" cols="20" placeholder="Message"></textarea>
+          </div>
+            <textarea class="all-inputs" placeholder="Message" id="messagetext"></textarea>
             <div class="subbtn">
-              <input id="form-submit" type="submit" value="submit" placeholder="submit">
+              <button type="submit" id="submit-button">Submit</button>
             </div>
           </form>
           <div class="aside-contact-detail">
@@ -99,5 +100,6 @@
         </div>
       </div>
     </div>
+    <!-- <script src="script.js"></script> -->
   </body>
 </html>

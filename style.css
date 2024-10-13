@@ -78,22 +78,19 @@ a {
 
 .quotebutton {
   display: inline-block;
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(72, 121, 134, 1) 73%,
-    rgba(57, 141, 160, 1) 100%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background-color: #00a8a9;
   border: none;
   padding: 15px 40px;
-  border-radius: 30px;
+  border-radius: 20px;
   transition: all 0.3s ease 0s;
   margin: 15px 0 65px 0;
   font-size: 20px;
 }
 
 .quotebutton:hover {
+  cursor: pointer;
+  transition: all 0.4s ease;
+  background-color: rgb(255, 255, 255);
   color: #00a8a9;
 }
 
@@ -131,6 +128,8 @@ a {
   border-radius: 0 10px 10px 0;
 }
 
+
+
 .text-item {
   padding: 0 80px 0 80px;
   color: #faf9f6;
@@ -138,6 +137,7 @@ a {
 
 .aboutpara {
   font-size: 18px;
+  max-width: 800px;
 }
 
 .aboutus {
@@ -276,10 +276,6 @@ a {
   margin-right: 4rem;
 }
 
-.dooter-heading h2 {
-  margin-bottom: 2rem;
-}
-
 .footer-heading a {
   margin-bottom: 0.5rem;
   text-decoration: none;
@@ -313,7 +309,7 @@ a {
 #footer-email-btn {
   background-color: #00a8a9;
   width: 100px;
-  height: 40px;
+  height: 43px;
   border-radius: 4px;
   outline: none;
   border: none;
@@ -322,6 +318,29 @@ a {
 }
 
 #footer-email-btn:hover {
+  cursor: pointer;
+  transition: all 0.4s ease;
+  background-color: rgb(255, 255, 255);
+  color: #00a8a9;
+}
+
+#btncon {
+display: flex;
+justify-content: center;
+}
+
+#bttbtn {
+  background-color: #00a8a9;
+  width: 100px;
+  height: 43px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  font: 1rem;
+  color: #faf9f6;
+}
+
+#bttbtn:hover {
   cursor: pointer;
   transition: all 0.4s ease;
   background-color: rgb(255, 255, 255);
